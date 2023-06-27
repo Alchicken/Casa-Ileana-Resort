@@ -65,10 +65,10 @@
     </div>
 
     <!-- Home -->
-    <section id="home" class="container-fluid text-light px-1 pt-2 p-lg-0 pt-lg-5 text-center" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(carousel.jpg); background-position: center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; margin-top: 8%;">
+    <section id="home" class="container-fluid text-light px-1 pt-2 pt-lg-5 text-center" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(carousel.jpg); background-position: center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; margin-top: 8%;">
         <div class="container mt-5 py-5">
             <div class="align-items-center justify-content-between">
-                <div id="casa" style="">
+                <div id="casa">
                     <h1 id="casaileana" class="display-1" style="font-family: 'Youth line - Personal Use', san-serif;">Casa <span id="casaileana" style="color:rgba(116,161,46); font-family: 'Youth line - Personal Use', san-serif;">Ileana</span></h1>
                     <p class="lead my-4" style="font-size: 2rem;">Your home away from home, experience summer with our private pool worth 3 fully airconditioned
                         rooms. </p>
@@ -82,14 +82,14 @@
         </div>
     </section>
     <!-- About -->
-    <section id="background" class="text-dark p-lg-5 p-sm-2 pt-lg-0 text-start" style="background: rgb(147, 147, 147);">
+    <section id="background" class="text-dark p-lg-5 p-sm-2 text-start" style="background: rgb(147, 147, 147);">
         <div class="container mt-lg-4 mt-sm-2 py-lg-5 py-sm-2">
             <h2 class="pt-sm-5"><span class="badge mb-4" style="background: rgba(116,161,46); cursor: default; font-family: Georgia, 'Times New Roman', Times, serif;">ABOUT</span></h2>
-            <div id="background" class="row align-items-center justify-content-between">
+            <div id="backgroundAbout" class="row align-items-center justify-content-between">
                 <div class="col-md-6 pb-lg-2">
                     <img src="carousel1.jpg" class="img-fluid" alt="Casa Ileana Photo">
                 </div>
-                <div class="col-md p-lg-5 p-sm-5">
+                <div class="col-md p-lg-5">
                     <!--<h2 class="display-3" style="font-family: Arial, Helvetica, sans-serif; color: rgb(224, 217, 217);">Background</h2>-->
                     <p class="lead fs-5 text-light" style="text-align: justify;">
                         Looking for an extraordinary venue that will leave your guests in awe? Look no further than Casa Ileana! With its breathtaking surroundings, impeccable service, and versatile event spaces, Casa Ileana guarantees an unforgettable experience that will make your special occasion truly magical. Whether it's a wedding, birthday celebration, or corporate retreat, let Casa Ileana be the backdrop to your most cherished memories. Book now and let us create an enchanting event that will exceed your wildest expectations!.Raymond Reyes and Clarence Reyes established the new resort known as Casa Ileana.
@@ -98,7 +98,7 @@
                 </div>
             </div>
         </div>
-        <div id="service" class="container mt-5 py-5">
+        <div id="service" class="container mt-5 py-lg-5">
             <hr>
             <h2><span class="badge mb-4" style="background: rgba(116,161,46); cursor: default; font-family: Georgia, 'Times New Roman', Times, serif;">SERVICE RATES</span></h2>
             <img class="img-thumbnail rounded" src="rates.jpg" alt="Service Rates Of Casa Ileana">
@@ -119,7 +119,7 @@
 								<img id="daddyImg" src="daddy.jpg" class="rounded-circle mb-3" alt="/" style="height: auto;">
 								<h3 class="card-title mb-3">Raymond Reyes</h3>
 								<p class="card-text lead" style="text-align: justify;">His seafaring career involved ship work and voyages across oceans. He served diverse roles as a crew member and gained valuable experience in maritime logistics, navigating the seas, and maintaining ship operations during extended periods away from home.</p>
-								<a href="https://www.facebook.com/raymond.reyes.5895" target="_blank"><i class="bi bi-facebook text-dark mx-1  facebook-icon" style=""></i></a>
+								<a href="https://www.facebook.com/raymond.reyes.5895" target="_blank"><i class="bi bi-facebook facebook-icon"></i></a>
 							</div>
 						</div>
 					</div>
@@ -130,7 +130,7 @@
 								<h3 class="card-title mb-3 mt-4" >Clarence Reyes</h3>
 								<p class="card-text lead" style="text-align: justify;">She is a businesswoman that handle their business since Raymond Reyes was working on a ship and sailing across the seas. Then 10 years later Raymond Reyes retired from being a seaman to help Clarence Reyes handle the business and to grow as well.
 								</p>
-								<a href="https://www.facebook.com/klarenzgodino" target="_blank"><i class="bi bi-facebook text-dark mx-1 facebook-icon"></i></a>
+								<a href="https://www.facebook.com/klarenzgodino" target="_blank"><i class="bi bi-facebook facebook-icon"></i></a>
 							</div>
 						</div>
 					</div>		
@@ -319,37 +319,37 @@
 			        			<label for="first-name" class="col-form-label">
 			        				First Name:
 			        			</label>
-			        			<input type="text" class="form-control" id="first-name">
+			        			<input type="text" class="form-control" id="first-name" required>
 			        		</div>
 			        		<div class="mb-3">
 			        			<label for="last-name" class="col-form-label">
 			        				Last Name:
 			        			</label>
-			        			<input type="text" class="form-control" id="last-name">
+			        			<input type="text" class="form-control" id="last-name" required>
 			        		</div>
 			        		<div class="mb-3">
 			        			<label for="email" class="col-form-label">
 			        				Email:
 			        			</label>
-			        			<input type="email" class="form-control" id="email">
+			        			<input type="email" class="form-control" id="email" required>
 			        		</div>
 			        		<div class="mb-3">
 			        			<label for="phone" class="col-form-label">
 			        				Phone Number:
 			        			</label>
-			        			<input type="tel" class="form-control" id="phone">
+			        			<input type="tel" class="form-control" id="phone" required>
 			        		</div>
                             <div class="mb-3">
                                 <label for="date" class="col-form-label">
                                     Date:
                                 </label>
-                                <input type="date" class="form-control" id="date">
+                                <input type="date" class="form-control" id="date" required>
                             </div>
 			        	</form>
 			      	</div>
 			      	<div class="modal-footer">
 				        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-				        <button type="button" class="btn btn-primary">Submit</button>
+				        <button type="submit" class="btn btn-primary">Submit</button>
 			      	</div>
 			    </div>
 			</div>
@@ -362,5 +362,6 @@
 
     <!-- JS EXTERNAL FILE -->
     <script src="function.js"></script>
+
 </body>
 </html>
