@@ -31,20 +31,3 @@ window.addEventListener('scroll', function() {
 
   prevScrollPos = currentScrollPos;
 });
-
-var links = navbar.getElementsByTagName('a');
-var navbarOffsetTop = navbar.offsetTop;
-
-window.addEventListener('scroll', function() {
-  if (window.scrollY > navbarOffsetTop) {
-    navbar.classList.add('scrolled');
-    for (var i = 0; i < links.length; i++) {
-        links[i].classList.add('scrolled-link');
-      }
-  } else {
-    navbar.classList.remove('scrolled');
-    for (var i = 0; i < links.length; i++) {
-        links[i].classList.remove('scrolled-link');
-      }
-  }
-});
